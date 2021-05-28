@@ -1,114 +1,110 @@
 * {
-    box-sizing: border-box;
-    }
-  
+    box-sizing:border-box;
+}
 body {
-   margin: 0;
-   padding: 0;
-   max-width:100%;
-   overflow-x: hidden;
-   font-family: 'Poppins', sans-serif;
-
-}
-html {
-    scroll-behavior: smooth;
-  }
-
-/* style the header*/
-.header {
-    text-align: center;
-    background-image: url(image/image1.png); 
-    background-repeat:no-repeat;
-    background-size: cover;
-    padding-bottom: 500px;
-    background-attachment:fixed;
-    width: 100%;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
     height: 100%;
-
-}
-span.a {
-    font-family:Edwardian Script ITC, serif;
-    border-bottom: 3px solid white;   
-    font-weight: bold;
+    width:100%;
 }
 
 
- /* style the top navigation */
- .topnav {
+/* style the top navigation */
+    .navbar {
     overflow: visible;
-    position:fixed;
-    width: 100%;
-    padding-left: 20px;
-    padding: 8px;
     background-color: #542a3d;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
+    
     
  }
  
     /* style the link inside the navigation bar */
-    .topnav a {
+    .navbar a {
     color: #f2f2f2;
     text-align: center;
-    padding: 5px 10px;
     text-decoration: none;
-    font-size: 17px;
-    margin:15px;
     font-weight: bold;
     }
+   
     
     /* change the color of links on hover */
-    .topnav a:hover {
+    .navbar a:hover {
     border-bottom: 3px solid #ddd ;
-    color: white;
-    border-radius: 20px;
+    border-radius: 16px;
+    
     }
     
     /* add a color to the active/current link */
-    .topnav a.active {
+    .navbar a.active {
     background-color: #4CAF50;
     color: white;
     border-radius: 20px;
     }
-   
-    div.about {
+
+    a.navbar-brand:hover{
+    border-bottom: none;
+    border-radius: 0;
+    }
+    .nav-logo {
+        width: 45px;
+        height: 45px;
+    }
+    
+    /* style the header */
+    .image-container {
+    width: 100%;
+    height: 800px;
+    background: url("image/image1.png");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 50px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+
+    }
+    .header-text {
+        font-size: 8vw; 
+        letter-spacing: 10px; 
+        border-bottom: 3px solid white; 
+        font-family:Edwardian Script ITC, serif; 
+        font-weight:bold; 
+        margin: 0px 175px;
+        
+    }
+    .header-caption {
+        margin: 0px 175px;
+        letter-spacing: 2px; 
+        font-size: 3vw; text-align:right; 
+        font-weight:bold;
+    }
+    /* style the about section */
+    .about {
         height: 100%;
         background-color:#ecdfdf;
-        padding-bottom: 100px;
         color:black;
-        width:100%
+        width:100%;
+        text-align: justify;
     }
-
-    .flex-container {
-        display: flex;
-        flex-wrap: nowrap;
-        margin: 70px;
-    }
-    .flex-container > div {
-        text-align:justify;
-        text-indent: 30px;
-        width: 50%;
-    }
+   
     img.a {
         width: 400px;
         height: 100%;
         padding-left: 30px;
     }
+    
+    /* stle the project1 section */
     div.project1 {
         width:100%;
-        height: 100%;
         text-align: center;
         color: white;      
-        background-image: url(image/handy.png); 
-        background-repeat: no-repeat;
-        background-size:cover;
-        padding-bottom: 300px;
-        background-attachment: fixed; 
- 
+        position: relative;     
     }
-
+    
     .button {
         background-color: #4CAF50; 
         border: none;
@@ -123,6 +119,7 @@ span.a {
         transition-duration: 0.4s;
         border-radius: 30px;
         font-weight: bold;
+        
     }
     .button a {
         text-decoration: none;
@@ -134,41 +131,23 @@ span.a {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
-    div.handy {
-        background-color: white;
-        padding-top: 100px;
-        width:100%;        
-    }
-
-    h1 {
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    #about a.active {
-        background-color: green;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto ;
-        grid-template-rows: 400px 400px;
-        grid-gap: 20px;
-        justify-content:center;
-       
-    }
-      
-      .grid-container > div {
+    /* here is project2 section*/
+    .project2 {
+        width:100%;
         text-align: center;
-        padding: 20 0;
-        font-size: 30px;
-        height: 80%;
-        width:100%
-        
-      }
-      section.a {
-          padding: 50px;
-          padding-bottom: 0px;
-      }
+        color: white; 
+        position: relative;     
+    }
+    div.desk {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+    img { 
+        width: 100%;
+        height: 100vh;
+      }     
       button.a {
         background-color: white; /* Green */
         border: 1px solid gray;
@@ -200,121 +179,150 @@ span.a {
     .a a:hover {
         color: black;
     }
-    .project2 {
-        width:100%;
-        height: 100%;
-        text-align: center;
-        color: white;      
-        background-image: url(image/desk.png); 
-        background-repeat: no-repeat;
-        background-size:cover;
-        padding-bottom: 300px;
-        background-attachment: fixed; 
+
+    /* style the contact section */
+    div#contact {
+        padding: 50px 50px;
     }
     
-    #grid-container {
-        display: grid;
-        grid-template-columns:450px 450px  ;
-        grid-template-rows: 600px;
-        grid-gap: 20px;
-        justify-content:center;
-        grid-row-gap: 1px;
-        grid-column-gap: 1px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    #grid-container > div {
-        text-align: center;
-        padding: 20 0;
-        font-size: 30px;
-        height: 100%;
-        width:100%;
-
-    }
-    #grid-container.a {
-        display: grid;
-        grid-template-columns: 750px 750px ;
-        grid-template-rows:450px 450px;
-        justify-content:safe;
-        grid-row-gap: 1px;
-        grid-column-gap: 1px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    #grid-container.a > div {
-        text-align: center;
-        font-size: 30px;
-        height: 100%;
-        width:100%;
-        margin: 0;
-        padding:0;
-    }
-
-    div#contact {
-        padding: 100px 100px;
-        
-    }
     .git {
         background-color: #ecdfdf;
-        width: 35%;
+        width: 60%;
         color: black;
-        float: right;
-        padding:90px 0px;
+        float: left;
+        padding: 90px 0px;
         border-radius: 16px;
-        height: 70%;
-        
-        
     }
+    
     .contact {
-       width:100%;
-       display: flex;
-       justify-content: space-between;
+       width: 100%;
        height: 100%;
        padding-left: 0px;
        border-radius: 20px;
        align-items: center;
     }
 
-    li {
-      list-style-type: dotted;
+    .logo {
+        width: 500px;
+        height: 500px;
     }
+    .cusneed {
+        width:270px;
+        height:350px;
+    }
+    .solution {
+        width: 240px;
+        height: 320px;
+        align-content: center;
+    }
+  /* Extra small devices (phones, 480px and down) */
+  @media only screen and (max-width: 480px) {
+    
+    .about {
+        font-size: 15px;
+    }
+    img.a {
+            width: 200px;
+            height: 100% ;
+            padding-left: 0px;
+            margin-left:auto;
+            margin-right: auto;    
+            display: block;     
+
+    }
+    
+     div#contact {
+            padding: 0px;
+        }
+       
+        .logo {
+            width: 450px;
+            height: 450px;
+        }
+        div.desk {
+            font-size: 15px;
+        }
+     
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 578px) {
+    
+    .about {
+        font-size: 15px;
+    }
+    img.a {
+            width: 200px;
+            height: 100% ;
+            padding-left: 0px;
+            margin-left:auto;
+            margin-right: auto;    
+            display: block;     
+    }
+   
+     div#contact {
+            padding: 0px;
+        } 
+}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    
+    .about {
+        font-size: 15px;
+    }
+    img.a {
+            width: 200px;
+            height: 100% ;
+            padding-left: 0px;
+            margin-left:auto;
+            margin-right: auto;    
+            display: block;     
+
+    }
+       div#contact {
+            padding: 0px;
+        }
+        .git {
+            float:none;
+            padding: 30px 70px;
+            width: 100%;
+            border-radius: 0px;
+        }
+        
+        h1.desk {
+            font-size: 25px;
+        }
+        button.desk {
+            font-size: 12px
+        }
+        .header-text {
+            padding: 0px;
+            text-align: center;
+            letter-spacing: 5px;
+            margin: 0px 30px;
+        
+        }
+        .header-caption {
+            margin: 0px 30px;
+        }        
+            
+        .navbar a:hover {
+            border-bottom: none;
+            text-decoration: underline;
+         }
+  } 
   
-    .grid-container.a {
-        display: grid;
-        grid-template-columns: auto auto auto auto ;
-        grid-template-rows: 400px;
-        grid-gap: 10px;
-        justify-content:center;
-        padding-left: 20px;
-      }
-      
-      .grid-container.a > div {
-        text-align: center;
-        font-size: 30px;
-        width:100%;
-        padding:0px;
-      }
-      .logo {
-          width: 500px;
-          height: 500px;
-      }
-      #grid-container.b {
-        display: grid;
-        grid-template-columns: 580px 580px ;
-        grid-template-rows:800px 800px;
-        justify-content:safe;
-        grid-row-gap: 1px;
-        grid-column-gap: 1px;
-        padding-left: 100px;
-        padding-right: 100px;
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .about {
+        align-items: center;
     }
-    #grid-container.a > div {
-        text-align: center;
-        font-size: 30px;
-        height: 100%;
-        width:100%;
-        margin: 0;
-        padding:0;
+    h1.desk {
+        font-size: 25px;
     }
+   
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .example {background: pink;}
+  }
