@@ -299,13 +299,12 @@ body {
         button.desk {
             font-size: 12px
         }
-       
-        
+
         h1.carousel {
             font-size: 7.5vw; 
             letter-spacing: 3px; 
             border-bottom: 3px solid white; 
-            font-family:Edwardian Script ITC, serif; 
+            font-family: Edwardian Script ITC, serif; 
             font-weight:bold; 
            
         }
