@@ -204,12 +204,10 @@ body {
     .solution {
         width: 240px;
         height: 320px;
-        
     } 
     .cup {
         width: 450px; 
         height: 600px;
-       
     }
   /* Extra small devices (phones, 480px and down) */
   @media only screen and (max-width: 480px) {
@@ -240,7 +238,7 @@ body {
      
 }
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (max-width: 578px) {
+  @media only screen and (max-width: 540px) {
     
     .about {
         font-size: 15px;
@@ -269,7 +267,7 @@ body {
     
 }
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 720px) {
     
     .about {
         font-size: 15px;
@@ -324,7 +322,7 @@ body {
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 960px) {
     .about {
         align-items: center;
     }
@@ -332,6 +330,6 @@ body {
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1140px) {
     .example {background: pink;}
   }
