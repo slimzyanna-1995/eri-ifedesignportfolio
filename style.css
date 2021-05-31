@@ -62,7 +62,7 @@ body {
         font-size: 7vw; 
         letter-spacing: 8px; 
         border-bottom: 3px solid white; 
-        font-family:'Edwardian Script ITC', serif; 
+        font-family: 'Tangerine', cursive;
         font-weight:bold; 
        
     }
@@ -302,8 +302,8 @@ body {
             font-size: 7.5vw; 
             letter-spacing: 3px; 
             border-bottom: 3px solid white; 
-            font-family: Edwardian Script ITC, serif; 
-            font-weight:bold; 
+            font-family: 'Tangerine', cursive;
+            font-weight:bolder; 
            
         }
         
@@ -312,7 +312,7 @@ body {
             font-size: 3vw; 
             text-align:right; 
             font-weight:bold;
-            padding-bottom: 50px;
+            padding-bottom: 0px;
         }
         .navbar a:hover {
             border-bottom: none;
