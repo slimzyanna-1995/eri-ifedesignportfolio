@@ -205,8 +205,8 @@ body {
         height: 320px;
     } 
     .cup {
-        width: 450px; 
-        height: 600px;
+        width: 350px; 
+        height: 500px;
     }
   /* Extra small devices (phones, 480px and down) */
   @media only screen and (max-width: 480px) {
