@@ -207,7 +207,7 @@ body {
     .cup {
         width: 450px; 
         height: 600px; 
-        display: inline-block;
+        
     }
   /* Extra small devices (phones, 480px and down) */
   @media only screen and (max-width: 480px) {
@@ -234,6 +234,11 @@ body {
         }
         div.desk {
             font-size: 15px;
+        }
+        .cup {
+            width: 450px; 
+            height: 600px; 
+            
         }
      
 }
@@ -278,6 +283,11 @@ body {
         text-align:right; 
         font-weight:bold;
         padding-bottom: 50px;
+    }
+    .cup {
+        width: 450px; 
+        height: 600px; 
+        
     }
     
 }
@@ -334,7 +344,11 @@ body {
             border-bottom: none;
             text-decoration: underline;
          }
-         
+         .cup {
+            width: 450px; 
+            height: 600px; 
+            
+        }
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
