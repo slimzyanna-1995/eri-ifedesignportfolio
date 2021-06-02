@@ -56,10 +56,12 @@ html {
     
     /* Make the image fully responsive */
   .carousel-inner img {
-    width: 100%;
-    height: 50%;
-    align-items: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
     }
+    
+    
     h1.carousel {
         font-size: 7vw; 
         letter-spacing: 8px; 
@@ -91,7 +93,7 @@ html {
     }
     
     /* stle the project1 section */
-    div.project1 {
+    div.project1, .project2, .project3{
         width:100%;
         text-align: center;
         color: white;      
@@ -125,12 +127,6 @@ html {
     }
 
     /* here is project2 section*/
-    .project2 {
-        width:100%;
-        text-align: center;
-        color: white; 
-        position: relative;     
-    }
     div.desk {
         position: absolute;
         top: 50%;
@@ -242,7 +238,7 @@ html {
             height: 600px; 
             
         }
-     
+       
 }
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (max-width: 540px) {
@@ -279,6 +275,7 @@ html {
         font-weight:bolder; 
         
     }
+    
     
     p.caption {
         letter-spacing: 0px; 
@@ -352,6 +349,7 @@ html {
             height: 600px; 
             
         }
+        
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -365,8 +363,8 @@ html {
         border-bottom: 3px solid white; 
         font-family: 'Tangerine', cursive;
         font-weight:bolder; 
-       
     }
+   
     
     p.caption {
         letter-spacing: 0px; 
@@ -385,4 +383,5 @@ html {
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (max-width: 1140px) {
     .example {background: pink;}
+    
   }
