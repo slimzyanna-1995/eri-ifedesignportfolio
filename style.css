@@ -4,18 +4,14 @@
 body {
     padding:0;
     margin:0;
-    height: 100vh;
+    height: 100%;
     max-width: 100%;
     width: 100%;
 }
 html {
     scroll-behavior: smooth;
   }
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+  
 nav {
     background: #542a3d;;
     position: fixed;
@@ -26,17 +22,16 @@ nav {
 }
 nav .wrapper {
     max-width: 1250px;
-    padding: 0 30px;
+    padding: 0 5px;
     margin: auto;
     display: flex;
     align-items: start;
     justify-content: space-between;
 }
-.wrapper .logo a {
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 27px;
-    font-weight: 600;
+
+ nav .wrapper .logo a img {
+    width: 45px;
+    height: auto;
 }
 .wrapper .nav-links {
     display: inline-flex;
@@ -44,7 +39,6 @@ nav .wrapper {
 }
 .nav-links li{
     list-style: none;
-    padding: 0 15px;
 }
 .nav-links li a {
     color: #f2f2f2;
@@ -68,13 +62,14 @@ nav .wrapper {
     line-height: 45px;
     position: absolute;
     opacity: 0;
-    visibility: hidden;
+    visibility: hidden; 
 }
 .nav-links li:hover .drop-menu {
     top: 65px;
     opacity: 1;
     visibility: visible;
     transition: all 0.3s ease;
+    padding-left: 0px;
 
 }
 .drop-menu li a {
@@ -146,6 +141,9 @@ nav .wrapper {
         width: 100%;
         max-height: 0px;
         overflow: hidden; 
+    }
+    .nav-links li:hover .drop-menu {
+        padding-left: 20px;
     }
     #showDrop:checked ~ .drop-menu {
         max-height: 100%;
