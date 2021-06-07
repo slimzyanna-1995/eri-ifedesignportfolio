@@ -22,7 +22,7 @@ nav {
 }
 nav .wrapper {
     max-width: 1250px;
-    padding: 0 5px;
+    padding: 0 20px;
     margin: auto;
     display: flex;
     align-items: start;
@@ -176,7 +176,16 @@ nav .wrapper {
         display: none;
     }
 }
-
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .header-text {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+      }
     /* Make the image fully responsive */
     .carousel {
         padding-top: 60px;
