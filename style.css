@@ -196,11 +196,11 @@ nav .wrapper {
         height: 100%;
     }
    h1.carousel {
-        font-size: 7vw; 
+        font-size: 5vw; 
         letter-spacing: 8px; 
         border-bottom: 3px solid white; 
-        font-family: 'Tangerine', cursive;
-        font-weight:bold; 
+        
+        font-weight:700; 
        
     }
     p.caption {
@@ -226,7 +226,7 @@ nav .wrapper {
     }
     
     /* stle the project1 section */
-    div.project1, .project2, .project3{
+    .project1, .project2, .project3, .project4{
         width:100%;
         text-align: center;
         color: white;      
@@ -240,19 +240,19 @@ nav .wrapper {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
         -webkit-transition-duration: 0.4s; 
         transition-duration: 0.4s;
         border-radius: 30px;
         font-weight: bold;
+        font-size: 12px;
         
     }
     .button a {
         text-decoration: none;
         color:white;
-        content-visibility: visible;
+        display: visible;
     }
 
     .button:hover {
@@ -317,8 +317,7 @@ nav .wrapper {
     }
     
     .contact {
-       width: 100%;
-       height: 100%;
+      
        border-radius: 20px;
        align-items: center;
     }
@@ -340,6 +339,21 @@ nav .wrapper {
         height: 600px; 
         
     }
+    /* div.gallery {
+        border: 0px;
+      }
+      
+       div.gallery img {
+        width: 450px;
+        height: 500px;
+      }
+       
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+      } */
   /* Extra small devices (phones, 480px and down) */
   @media only screen and (max-width: 480px) {
     
@@ -371,6 +385,10 @@ nav .wrapper {
             height: 600px; 
             
         }
+        h1.work {
+            padding: 0px 0px 0px 0px;
+        }
+        
        
 }
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -401,12 +419,10 @@ nav .wrapper {
        
     }
     h1.carousel {
-        font-size: 7.5vw; 
+        font-size: 5.5vw; 
         letter-spacing: 3px; 
         border-bottom: 3px solid white; 
-        font-family: 'Tangerine', cursive;
-        font-weight:bolder; 
-        
+        font-weight:500; 
     }
     
     
@@ -422,6 +438,10 @@ nav .wrapper {
         height: 600px; 
         
     }
+    h1.work {
+        padding: 0px 0px 0px 0px;
+    }
+   
     
 }
   /* Medium devices (landscape tablets, 768px and up) */
@@ -453,16 +473,12 @@ nav .wrapper {
         h1.desk {
             font-size: 25px;
         }
-        button.desk {
-            font-size: 12px
-        }
-
+       
         h1.carousel {
-            font-size: 8vw; 
+            font-size: 5vw; 
             letter-spacing: 3px; 
             border-bottom: 3px solid white; 
-            font-family: 'Tangerine', cursive;
-            font-weight:bolder; 
+            font-weight:500; 
            
         }
         
@@ -482,7 +498,10 @@ nav .wrapper {
             height: 600px; 
             
         }
-        
+        h1.work {
+            padding: 0px 0px 0px 0px;
+        }
+       
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -491,10 +510,9 @@ nav .wrapper {
         align-items: center;
     }
     h1.carousel {
-        font-size: 8vw; 
+        font-size: 5vw; 
         letter-spacing: 3px; 
         border-bottom: 3px solid white; 
-        font-family: 'Tangerine', cursive;
         font-weight:bolder; 
     }
    
@@ -512,6 +530,9 @@ nav .wrapper {
       width: 350px;
       height: 350px;
   }
+  h1.work {
+    padding: 0px 0px 0px 0px;
+}
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (max-width: 1140px) {
