@@ -241,7 +241,7 @@ nav .wrapper {
         text-decoration: none;
         display: inline-block;
         margin: 4px 2px;
-        cursor: pointer;
+        cursor:pointer;
         -webkit-transition-duration: 0.4s; 
         transition-duration: 0.4s;
         border-radius: 30px;
@@ -339,7 +339,7 @@ nav .wrapper {
         height: 600px; 
         
     }
-    /* div.gallery {
+    div.gallery {
         border: 0px;
       }
       
@@ -353,7 +353,7 @@ nav .wrapper {
         text-align: center;
         color: white;
         font-size: 14px;
-      } */
+      }
   /* Extra small devices (phones, 480px and down) */
   @media only screen and (max-width: 480px) {
     
