@@ -307,16 +307,10 @@ nav .wrapper {
     }
     
     .git {
-        background-color: #ecdfdf;
-        width: 70%;
-        color: black;
-        float: left;
-        padding: 80px 0px;
-        border-radius: 16px;
+        color: black ;
+        padding: 80px 50px;
     }
-    
     .contact {
-      
        border-radius: 20px;
        align-items: center;
     }
@@ -458,17 +452,8 @@ nav .wrapper {
             display: block;     
 
     }
-       div#contact {
-            padding: 0px;
-        }
-     
-        .git {
-            float:none;
-            padding: 50px 0px;
-            width: 100%;
-            border-radius: 0px;
-        }
-       
+      
+    
         h1.desk {
             font-size: 25px;
         }
