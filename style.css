@@ -434,11 +434,12 @@ nav .wrapper {
     h1.work {
         padding: 0px 0px 0px 0px;
     }
+
    
     
 }
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 768px) {
     
     .about {
         font-size: 15px;
@@ -484,7 +485,7 @@ nav .wrapper {
         h1.work {
             padding: 0px 0px 0px 0px;
         }
-       
+        
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
